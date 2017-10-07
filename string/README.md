@@ -6,6 +6,8 @@
 * **直接构造函数**
   > String(const char *ch = NULL);
 * 赋值构造函数
-  > String(const String &other);
-  赋值构造函数需要注意将参数设置为const String&, 如果不传入引用， 会引起无线循环
+  ``` c++
+  String(const String &other);
+  ```
+赋值构造函数需要注意将参数设置为const String&, 如果不传入引用， 会引起无线循环
 * 析构函数
