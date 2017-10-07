@@ -47,6 +47,7 @@ String::~String(){
 //@params：const String &
 //@return: String &
 inline String & String::operator=(const String &other){
+    //这一步很重要 当参数是本身时，需要直接返回自身
     if(this == &other){
         return *this;
     } 
