@@ -7,7 +7,7 @@
 
 2. 写一个求字符串长度的函数strlen
 * 求字符串长度的基本做法就是：依次遍历字符串直到遇到\0字符，统计走过的步数
-* 但是strlen2的效率要比strlen高
+* 但是strlen2的效率要比strlen1高
     ```c++
     //计算一个字符串的长度时，src 和 len 都需要同时加1
     int strlen1(const char* src){
