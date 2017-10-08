@@ -47,7 +47,7 @@
     BinTreeNode* BinTree::create_tree(){
         char item;
         BinTreeNode *t, *t_l, *t_r;
-        cin >> item; //61#23#45#
+        cin >> item; //61#23#4#
     
         if(item != '#'){// '#' means none node
             BinTreeNode *tmp = new BinTreeNode(item - 48);
